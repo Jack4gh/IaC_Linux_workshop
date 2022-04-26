@@ -1,0 +1,174 @@
+/*--
+ *     Author: W3layouts
+ *         Author URL: http://w3layouts.com
+ *             License: Creative Commons Attribution 3.0 Unported
+ *                 License URL: http://creativecommons.org/licenses/by/3.0/
+ *                 --*/
+
+/*-- Reset Code --*/
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
+}
+body a:hover {
+    text-decoration: none;
+}
+body a:focus, a:hover {
+    text-decoration: none;
+}
+input[type="button"], input[type="submit"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+p {
+    margin:0;
+}
+ul {
+    margin:0;
+    padding:0;
+}
+label {
+    margin:0;
+}
+a:focus, a:hover {
+    text-decoration: none;
+    outline: none
+}
+
+//img {
+//  width: 80%;
+//}
+.clear{
+    clear:both;
+}
+#grad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#FA9903, #1ba4d3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FA9903, #1ba4d3) /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FA9903, #1ba4d3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FA9903, #1ba4d3); /* Standard syntax */
+}
+
+/*-- //Reset Code --*/
+body{
+#   background:url('../images/xbear_paws_tile_background.png');
+    background-repeat: repeat;
+    background-size:auto;
+#   background-color: #FFCC00;
+}
+.main{
+    width:65%;
+    margin:10px auto 0px auto;
+    text-align:center;
+}
+.main h2{
+    font-size:60px;
+    font-weight:400;
+    color:#ff0000;
+}
+
+.main bg_green{
+        font-size:28px;
+    font-weight:400;
+    color:#000000;
+#        background-color: red;
+}
+
+.main h1{
+    font-size:100px;
+    font-weight:400;
+    color:#000;
+}
+.main h1 img{
+    width:11%;
+}
+.main h3{
+    margin:30px 0px;
+    font-size:28px;
+    font-weight:400;
+    color:#000;
+}
+a.back{
+    display:inline-block;
+    color:#000;
+    border:1px solid #000;
+    padding:7px 15px;
+    margin-bottom:30px;
+}
+a.back:hover{
+    color:#fff;
+    border:1px solid #fff;
+    transition:all 0.5s ease-in-out;
+}
+.main ul {
+     margin:0;
+     width:57%;
+     margin:0 auto;
+}
+.main ul li{
+    display:inline;
+}
+.main ul li a {
+    width: 40px;
+    height: 40px;
+    background: url('../images/img-sprite.png') no-repeat -160px -43px;
+    display: inline-block;
+    border: none;
+    background-size: 400px;
+}
+.main ul li a.facebook {
+    background: url('../images/img-sprite.png') no-repeat -200px -43px;
+    background-size: 400px;
+}
+.main ul li a.pinterest {
+    background: url('../images/img-sprite.png') no-repeat -240px -43px;
+    background-size: 400px;
+}
+.main ul li a.twitter:hover {
+    background: url('../images/img-sprite.png') no-repeat -160px 0px;
+    background-size: 400px;
+}
+.main ul li a.facebook:hover {
+    background: url('../images/img-sprite.png') no-repeat -200px 0px;
+    background-size: 400px;
+}
+.main ul li a.pinterest:hover {
+    background: url('../images/img-sprite.png') no-repeat -240px 0px;
+    background-size: 400px;
+}
+.footer{
+    text-align:center;
+    margin-top:100px;
+}
+.footer p{
+    font-size:16px;
+    color:#000;
+}
+.footer a{
+    color:#000;
+    font-size:16px;
+    border:none;
+    padding:0;
+}
+.footer a:hover{
+    color:#fff;
+    font-size:16px;
+}
